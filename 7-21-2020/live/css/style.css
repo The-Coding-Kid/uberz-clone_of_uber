@@ -1,0 +1,49 @@
+/*--APPLIES TO ALL / REUSABLE--*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*--HEADER--*/
+
+#header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/img/city1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+#header .dots {
+	background-image: url(../img/img/pattern-bg.png);
+	height: 100%;
+}
+
+#header nav {
+	position: relative;
+}
+
+#header nav ul {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	list-style: none;
+}
+
+#header nav li {
+	float: left;
+	margin: 0 15px;
+}
+
+#header nav img {
+	width: 200px;
+}
+
+#header nav a {
+	color: white;
+	text-decoration: none;
+}
