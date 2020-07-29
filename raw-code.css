@@ -1,0 +1,172 @@
+/*--APPLIES TO ALL / REUSABLE--*/
+
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*--HEADER--*/
+
+#header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0,0,0,0.6)), url(../img/img/city1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	position: relative;
+}
+
+#header .dots {
+	background-image: url(../img/img/pattern-bg.png);
+	height: 100%;
+}
+
+
+/*--NAVBAR BOILERPLATE CODE--*/
+
+#header nav {
+	position: relative;
+	padding: 20px 10px;
+	
+}
+
+#header nav ul {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	list-style: none;
+}
+
+#header nav li {
+	float: left;
+	margin: 0 15px;
+}
+
+#header nav img {
+	width: 200px;
+}
+
+#header nav a {
+	font-weight: 300;
+	color: white;
+	text-decoration: none;
+}
+
+/*--TEXT CENTERING/STYLING BOILERPLATE CODE--*/
+
+#header .headline-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#header .headline-container h1 {
+	font-size: 60px;
+	font-weight: 400;
+}
+
+#header .headline-container h2 {
+	font-size: 45px;
+	font-weight: 300;
+	margin-bottom: 45px;
+}
+
+#header .headline-container a {
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 5px 15px;
+}
+
+/*--STYLING THE ARROW--*/
+#header i {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	font-size: 50px;
+	color: bisque;
+}
+
+#steps .section-headline {
+	color: #4e4d4d;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+
+section {
+	padding: 70px;
+}
+
+.line {
+	height: 2px;
+	width: 80px;
+	background-color: lightgray;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+
+
+.row {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.one-of-two {
+	width: 50%;
+	float: left;
+}
+
+
+/*--STEPS--*/
+
+#steps img {
+	float: right;
+}
+
+#steps .circle {
+	border: 1px solid lightgray;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: relative;
+	float: left;
+}
+
+/*Circle boilerplate code*/
+#steps .circle p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+	font-weight: 300;
+	color: gray;
+	
+}
+
+#steps .steps-container {
+	overflow: auto;
+	margin-bottom: 70px;
+	margin-left: 50px;
+}
+
+
+#steps h2 {
+	font-size: 25px;
+	
+}
+
+#steps .steps-description {
+	font-weight: 300;
+}
