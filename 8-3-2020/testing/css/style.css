@@ -1,0 +1,333 @@
+/* --- APPLIES TO ALL / REUSABLE --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.section-headline {
+    color: #4e4d4d;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+section {
+    padding: 70px;
+}
+
+
+.line {
+    height: 2px;
+    width: 80px;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.row {
+    width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+}
+.row1 {
+	width: 100%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+
+.one-of-two {
+    width: 50%;
+    float: left;
+}
+
+.one-of-three {
+    width: 33.33%;
+    float: left;
+}
+
+.one-of-three-one {
+	width: 27.8vw;
+	border: 2px solid lightgray;
+	text-align: center;
+	float: left;
+	margin: 10px;
+}
+
+.one-of-four {
+	width: 25%;
+	float: left;
+}
+
+/* --- HEADER --- */
+
+#header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/city1.jpg);
+	background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+
+#header .dots {
+    background-image: url(../img/pattern-bg.png);
+    height: 100%;
+}
+
+#header nav {
+    position: relative;
+    padding: 20px 10px;
+}
+
+#header nav ul {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    list-style: none;
+}
+
+#header nav li {
+    float: left;
+    margin: 0 15px;
+}
+
+#header nav img {
+    width: 200px;
+}
+
+#header nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+#header .headline-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header .headline-container h1 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+#header .headline-container h2 {
+    font-size: 45px;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+#header .headline-container a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 25px;
+    font-weight: 300;
+    padding: 5px 15px;
+}
+
+#header i {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 50px;
+    color: bisque;
+}
+
+/* --- STEPS --- */
+
+#steps img {
+    float: right;
+}
+
+#steps .circle {
+    border: 1px solid lightgray;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+    float: left;
+}
+
+#steps .circle p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+
+#steps .steps-container {
+    overflow: auto;
+    margin-bottom: 70px;
+    margin-left: 50px;
+}
+
+#steps h2 {
+    font-size: 25px;
+}
+
+#steps .steps-description {
+    font-weight: 300;
+}
+
+/* --- BENEFITS --- */
+
+#benefits {
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+#benefits i {
+    color: #4e4d4d;
+    font-size: 45px;
+}
+
+#benefits h3 {
+    color: #11939a;
+    font-size: 30px;
+}
+
+#benefits p {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+#benefits img {
+    border-bottom: 1px solid lightgray;
+    margin-top: 100px;
+    width: 80%;
+}
+
+#benefits h4 {
+    margin: 20px 0;
+    font-size: 30px;
+    color: #11939a;
+}
+
+#benefits a {
+    background-color: #ff9f37;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 25px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+    width: 300px;
+}
+
+/*--STATS--*/
+#stats {
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/city2.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+#stats i {
+	color: #549dc5;
+	font-size: 50px;
+}
+
+#stats h3, #stats p {
+	color: white;
+}
+
+#stats p {
+	font-size: 85px;
+	font-weight: 700;
+}
+
+#stats h3 {
+	font-size: 25px;
+	font-weight: 300;
+}
+
+
+
+
+/*--PRICING--*/
+#pricing {
+	background-color: #F0F0F0;
+}
+
+
+#pricing p{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: dimgray;
+	font-size: 20px; 
+	font-weight: 400;
+		
+}
+
+#pricing h3 {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #549dc5;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+#pricing .separator {
+	margin: 0;
+	padding: 0;
+    height: 2px;
+    width: 75%;
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#pricing h4 {
+	color: dimgray;
+	font-size: 25px;
+	font-weight: 300;
+	padding: 0;
+}
+
+#pricing .signup {
+	width: 25%;
+	margin: 20px auto;
+	background-color: #549dc5;
+	text-align: center;
+	
+}
+
+#pricing a {
+	
+	text-decoration: none;
+	
+}
+
+#pricing h5 {
+	color: white;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	font-weight: 400;
+}
+
+
+
+/*--TEAM--*/
+
+
